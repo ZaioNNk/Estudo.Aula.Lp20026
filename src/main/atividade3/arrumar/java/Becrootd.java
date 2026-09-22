@@ -6,7 +6,7 @@ public class Becrootd {
         Scanner sc = new Scanner(System.in);
         int A =  sc.nextInt();
         int B = sc.nextInt();
-        int x = A+B;
+        int x = A*B;
         System.out.printf( "x = %d\n" ,x);
         sc.close();
 
